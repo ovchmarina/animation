@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE00529F257CEBB0007E9029 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE00529E257CEBB0007E9029 /* SignUpViewController.swift */; };
 		CE5C1E69256F8B8B00A2521A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C1E68256F8B8B00A2521A /* AppDelegate.swift */; };
 		CE5C1E6B256F8B8B00A2521A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C1E6A256F8B8B00A2521A /* SceneDelegate.swift */; };
 		CE5C1E6D256F8B8B00A2521A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C1E6C256F8B8B00A2521A /* ViewController.swift */; };
 		CE5C1E70256F8B8B00A2521A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C1E6E256F8B8B00A2521A /* Main.storyboard */; };
 		CE5C1E72256F8B9300A2521A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5C1E71256F8B9300A2521A /* Assets.xcassets */; };
 		CE5C1E75256F8B9300A2521A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C1E73256F8B9300A2521A /* LaunchScreen.storyboard */; };
+		CE5C1E7E256F934900A2521A /* SignInAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C1E7D256F934900A2521A /* SignInAnimateViewController.swift */; };
+		CE5C1E85256F9DA800A2521A /* CandyAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C1E84256F9DA800A2521A /* CandyAnimateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE00529E257CEBB0007E9029 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CE5C1E65256F8B8B00A2521A /* animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5C1E68256F8B8B00A2521A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5C1E6A256F8B8B00A2521A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		CE5C1E71256F8B9300A2521A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5C1E74256F8B9300A2521A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5C1E76256F8B9300A2521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5C1E7D256F934900A2521A /* SignInAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAnimateViewController.swift; sourceTree = "<group>"; };
+		CE5C1E84256F9DA800A2521A /* CandyAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAnimateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				CE5C1E6A256F8B8B00A2521A /* SceneDelegate.swift */,
 				CE5C1E6C256F8B8B00A2521A /* ViewController.swift */,
 				CE5C1E6E256F8B8B00A2521A /* Main.storyboard */,
+				CE00529E257CEBB0007E9029 /* SignUpViewController.swift */,
+				CE5C1E84256F9DA800A2521A /* CandyAnimateViewController.swift */,
+				CE5C1E7D256F934900A2521A /* SignInAnimateViewController.swift */,
 				CE5C1E71256F8B9300A2521A /* Assets.xcassets */,
 				CE5C1E73256F8B9300A2521A /* LaunchScreen.storyboard */,
 				CE5C1E76256F8B9300A2521A /* Info.plist */,
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE00529F257CEBB0007E9029 /* SignUpViewController.swift in Sources */,
+				CE5C1E85256F9DA800A2521A /* CandyAnimateViewController.swift in Sources */,
+				CE5C1E7E256F934900A2521A /* SignInAnimateViewController.swift in Sources */,
 				CE5C1E6D256F8B8B00A2521A /* ViewController.swift in Sources */,
 				CE5C1E69256F8B8B00A2521A /* AppDelegate.swift in Sources */,
 				CE5C1E6B256F8B8B00A2521A /* SceneDelegate.swift in Sources */,
